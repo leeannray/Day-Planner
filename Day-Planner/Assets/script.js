@@ -6,12 +6,13 @@ currentDate = now.textcontent;
 //Display current time at top of planner that is updated when page loads
 $(document).ready(function () {
     $("#currentDay").text(moment().format('ddd MMM Do, YYYY hh:mm A'));
+    });
 
     //call functions to initiate color changes, local storage retrieval and input text
     colorInputs();
     btnClickEvent();
     getTextAreaValues();
-});
+
 
 // changes color of time slots based on current time. Current hour assigned to variable using moment.get(hour)
 function colorInputs() {
@@ -51,6 +52,7 @@ function btnClickEvent() {
 
         // save in localStorage
         localStorage.setItem(time, value);
+        alert("SAVED!");
     });
 
 
@@ -63,6 +65,7 @@ function btnClickEvent() {
         // clears localStorage
         localStorage.clear();
         getTextAreaValues();
+        alert("DELETED!");
     });
 };
 
