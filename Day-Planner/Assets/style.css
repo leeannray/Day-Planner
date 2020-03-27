@@ -1,0 +1,54 @@
+.jumbotron {
+  color: white;
+  background-image: url(https://www.freegreatpicture.com/files/146/25571-colorful-high-resolution-background.jpg);
+  text-align: center;
+}
+
+.textarea{
+  background: transparent;
+  border: lightseagreen;
+  resize: none;
+  color: black;
+  border-left: 1px solid;
+  padding: 20px;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.past {
+  background-color: red;
+  color: red;
+  opacity: 50%;
+}
+
+.present {
+  background-color: seagreen;
+  color: white;
+}
+
+.future {
+  background-color: darkturquoise;
+  color: white;
+}
+
+.btn i:hover {
+  transition: all .3s ease-in-out;
+}
+
+.btn {
+  padding: 5px;
+}
+
+.saveBtn {
+  background-color: darkturquoise;
+}
+
+.row {
+  padding: 2px 1px;
+}
+
+.hour {
+  text-align: left;
+}
