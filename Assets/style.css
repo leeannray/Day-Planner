@@ -9,8 +9,10 @@
   border: lightseagreen;
   resize: none;
   color: black;
+  font-family: 'Roboto Condensed', sans-serif;
   border-left: 1px solid;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .description{
@@ -18,19 +20,24 @@
 }
 
 .past {
-  background-color: red;
-  color: red;
+  background-color: grey;
+  color: white;
   opacity: 50%;
+  text-decoration: line-through;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px red;
+  opacity: 20%;
 }
 
 .present {
-  background-color: seagreen;
+  background-color: cyan;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .future {
   background-color: darkturquoise;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .btn i:hover {
