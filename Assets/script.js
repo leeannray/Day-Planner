@@ -5,7 +5,7 @@ currentDate = now.textcontent;
 
 //Display current time at top of planner that is updated when page loads
 $(document).ready(function () {
-    $("#currentDay").text(moment().format('ddd MMM Do, YYYY hh:mm A'));
+    $("#currentDay").text(moment().format('ddd, MMM Do, YYYY hh:mm A'));
     });
 
     //call functions to initiate color changes, local storage retrieval and input text
